@@ -1,0 +1,45 @@
+.txt{
+
+    text-align: center;
+    position: absolute;
+    transition: all .3s;
+    opacity: 0;
+    backdrop-filter: blur(6px);
+    top: 15px;
+    vertical-align: middle;
+    height: 100%;
+
+}
+
+.txt >h1,p {
+
+    color: #FFF;
+    padding: 5px;
+
+}
+
+.txt >h1{
+
+    font-size: 25px;
+
+}
+
+.txt >p{
+
+    font-size: 13px;
+
+}
+
+#info{
+
+    align-items: center;
+    
+
+}
+
+#info:hover .txt{
+
+    opacity: 1;
+
+}
+
